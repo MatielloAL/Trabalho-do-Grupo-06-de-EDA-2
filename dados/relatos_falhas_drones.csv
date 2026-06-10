@@ -1,0 +1,301 @@
+relato,categoria
+"Durante o voo autônomo, o drone desviou significativamente da rota programada sem motivo aparente, ultrapassando os limites da área de operação.",Navegação
+"O GPS perdeu sinal repentinamente durante a missão, fazendo o drone entrar em modo de voo manual inesperadamente.",Navegação
+"O sistema de desvio de obstáculos falhou ao detectar uma árvore no caminho, resultando em colisão.",Navegação
+"O drone não conseguiu manter altitude constante durante o voo pairado, oscilando ±3 metros.",Navegação
+"Ao tentar retornar ao ponto de origem (Return-to-Home), o drone voou em direção errada.",Navegação
+"O planejamento de waypoints apresentou erro e o drone saltou direto para o último ponto da missão, ignorando os intermediários.",Navegação
+"A bússola interna apresentou interferência magnética próximo a estruturas metálicas, causando desorientação no drone.",Navegação
+"O drone iniciou descida autônoma em local inadequado por falha no reconhecimento de zona de pouso seguro.",Navegação
+"Durante voo em modo FOLLOW ME, o drone perdeu rastreamento do alvo e ficou estático no ar.",Navegação
+"O sistema de geofencing não bloqueou corretamente a saída do drone da área permitida.",Navegação
+"A estimativa de posição divergiu da localização real do drone em mais de 15 metros ao longo da missão.",Navegação
+"O drone não executou a manobra de evasão ao detectar objeto no caminho, continuando em rota de colisão.",Navegação
+"Falha no algoritmo de fusão de sensores fez o drone interpretar sua altitude como negativa, causando subida brusca.",Navegação
+"O sistema de navegação autônoma travou ao processar um mapa com densidade elevada de waypoints.",Navegação
+"O drone apresentou deriva lateral constante de 2 m/s mesmo com ventos calmos, indicando falha na correção de posição.",Navegação
+"O módulo GPS indicou posição fixa com apenas 3 satélites, resultando em leituras imprecisas de localização.",Navegação
+"O drone não iniciou a missão programada devido a falha na validação do plano de voo.",Navegação
+"Durante pouso automático, o drone iniciou descida em posição deslocada 8 metros do ponto alvo.",Navegação
+"O sistema de evitação de colisão lateral falhou durante manobra em corredor estreito.",Navegação
+"O drone apresentou comportamento errático ao tentar navegar em área com multipath intenso de GPS.",Navegação
+"Falha no módulo de navegação inercial causou perda de referência de posição durante voo em túnel.",Navegação
+"O drone excedeu o limite de altitude configurado devido a falha no controle de voo vertical.",Navegação
+"O sistema de localização por visão computacional perdeu referência em área com iluminação insuficiente.",Navegação
+"Durante manobra de pouso de precisão, o sensor de distância ao solo retornou valor incorreto.",Navegação
+"O drone realizou retorno automático ao home point incorreto salvo na memória do controlador.",Navegação
+"A trajetória calculada pelo sistema de navegação resultou em voo sobre área restrita.",Navegação
+"O drone não conseguiu estabilizar posição horizontal em ambiente com ventos variáveis, derivando continuamente.",Navegação
+"Falha na compensação de vento fez o drone sair da rota em 20 metros em condição de vento cruzado.",Navegação
+"O sistema de mapeamento 3D falhou ao gerar mapa do terreno, impossibilitando navegação por relevo.",Navegação
+"O drone entrou em modo de hover não planejado ao detectar sinal GPS degradado.",Navegação
+"O sistema de piloto automático não reconheceu o comando de aterrizagem por falha no módulo de controle.",Navegação
+"A missão foi abortada automaticamente devido a falha na sincronização entre GPS e bússola.",Navegação
+"O drone realizou manobra em espiral descendente não comandada ao tentar manter posição em vento forte.",Navegação
+"Falha no filtro de Kalman da navegação inercial resultou em estimativa de velocidade incorreta.",Navegação
+"O drone ignorou zona de exclusão aérea configurada devido a corrupção no arquivo de geofence.",Navegação
+"Ao pousar em superfície inclinada, o drone não ajustou a aproximação e tombou ao tocar o solo.",Navegação
+"O sistema de decolagem automática falhou ao verificar espaço livre acima do drone antes de iniciar subida.",Navegação
+"O drone perdeu referência de heading após cruzar sobre linha de alta tensão, desviando da rota.",Navegação
+"Falha na integração entre módulo GPS e controlador de voo gerou conflito de comandos de posição.",Navegação
+"O sistema de waypoints executou pontos fora de ordem por bug na fila de missão.",Navegação
+"O drone não desviou de nuvem de pássaros detectada pelo sensor de obstáculos, resultando em colisão.",Navegação
+"A velocidade de cruzeiro programada foi ignorada pelo sistema, causando voo em velocidade máxima.",Navegação
+"O retorno automático foi acionado erroneamente por leitura falsa de bateria crítica, interrompendo missão.",Navegação
+"O drone falhou em calcular rota alternativa quando obstáculo inesperado bloqueou o caminho planejado.",Navegação
+"Falha no sensor de fluxo óptico causou instabilidade na posição durante hover em área sem GPS.",Navegação
+"O drone desceu abaixo da altitude mínima configurada ao tentar seguir terreno inclinado.",Navegação
+"O sistema de navegação relativa ao solo falhou em ambiente com superfície espelhada.",Navegação
+"O drone não conseguiu concluir o pouso automático em ponto com obstáculos laterais parcialmente detectados.",Navegação
+"Falha na atualização do firmware do módulo GPS causou reinicialização durante missão crítica.",Navegação
+"O modo de voo em círculo falhou e o drone voou em linha reta após um ponto de interesse.",Navegação
+"O sensor IMU retornou dados de aceleração incorretos após impacto leve durante pouso, comprometendo todos os voos subsequentes.",Sensores
+"O barômetro apresentou leituras erráticas em ambiente fechado devido à pressão de ar gerada pelas próprias hélices.",Sensores
+"O sensor ultrassônico de altitude falhou ao operar sobre superfícies com absorção acústica, como gramado alto.",Sensores
+"O sensor de temperatura do motor superestimou a temperatura em 20°C, acionando proteção térmica desnecessariamente.",Sensores
+"O sensor de fluxo óptico perdeu rastreamento ao voar sobre superfície de cor uniforme sem textura.",Sensores
+"O magnetômetro apresentou desvio permanente após exposição a campo magnético intenso durante manutenção.",Sensores
+"O giroscópio derivou progressivamente ao longo de 15 minutos de voo, causando rotação não intencional.",Sensores
+"O sensor de corrente da bateria indicou consumo zero durante voo, impedindo estimativa correta de carga restante.",Sensores
+"O LiDAR de evitação de obstáculos retornou distâncias negativas ao operar em ambiente com muita poeira.",Sensores
+"O sensor de velocidade do ar (pitot) entupiu com umidade, fornecendo leituras de vento incorretas.",Sensores
+"O acelerômetro saturou durante manobra agressiva, perdendo referência de orientação por 2 segundos.",Sensores
+"O sensor de proximidade lateral esquerdo falhou silenciosamente, criando ponto cego na detecção de obstáculos.",Sensores
+"O GPS RTK perdeu sinal de correção diferencial, degradando precisão de centímetros para metros.",Sensores
+"O sensor de tensão de bateria apresentou ruído excessivo, causando alarmes falsos de baixa tensão.",Sensores
+"A câmera de visão estéreo retornou mapa de profundidade corrompido ao operar sob luz solar direta.",Sensores
+"O sensor de vibração detectou frequência anormal no motor 3, mas o valor foi filtrado incorretamente pelo firmware.",Sensores
+"O barômetro foi afetado por rajada de vento direta na porta de entrada, causando pico de pressão falso.",Sensores
+"O sensor de ângulo de hélice (encoder) travou mecanicamente, fornecendo posição fixa errada ao controlador.",Sensores
+"O sensor de presença de objeto no trilho de pouso falhou, impedindo confirmação de pouso bem-sucedido.",Sensores
+"O acelerômetro de 3 eixos apresentou desalinhamento após substituição sem recalibração adequada.",Sensores
+"O sensor infravermelho de altitude perdeu eficácia ao operar sob luz solar intensa, retornando valores máximos constantes.",Sensores
+"O giroscópio apresentou bias elevado após operação em temperatura extremamente baixa (-10°C).",Sensores
+"O sensor de pressão dinâmica do pitot indicou velocidade negativa durante voo parado no chão.",Sensores
+"O magnetômetro externo foi instalado próximo ao ESC, sofrendo interferência eletromagnética constante.",Sensores
+"O sensor de distância traseiro não detectou obstáculo de vidro transparente a 0,5 metros.",Sensores
+"O barômetro perdeu calibração após voo em altitude elevada (4000m), comprometendo missões subsequentes.",Sensores
+"O sensor de corrente indicou pico de 80A quando o consumo real era de 30A, acionando proteção equivocada.",Sensores
+"O IMU principal falhou e o sistema não fez chaveamento automático para o IMU reserva.",Sensores
+"O sensor de campo magnético terrestre indicou norte em direção oposta após descalibração severa.",Sensores
+"O sensor de velocidade do vento (anemômetro) travou fisicamente durante voo em condições de gelo.",Sensores
+"O LiDAR de mapeamento retornou nuvem de pontos com buracos onde havia vidros ou superfícies reflexivas.",Sensores
+"O sensor de CO2 do payload reagiu ao exaustor do motor a combustão do veículo de apoio, gerando alarme falso.",Sensores
+"O acelerômetro apresentou vibração mecânica excessiva por falta de isolamento adequado, degradando estimativa de posição.",Sensores
+"O sensor hall do motor indicou falha de polo magnético que não existia, causando parada desnecessária.",Sensores
+"O sensor GPS não adquiriu fix após 10 minutos de espera em local com visibilidade celeste adequada.",Sensores
+"O sensor ultrassônico emparelhou com eco de superfície próxima durante voo, retornando altitude zero falsamente.",Sensores
+"O sensor de radiação solar para estimativa de iluminação foi danificado por impacto de galho durante missão.",Sensores
+"O barômetro integrado ao controlador foi exposto a vento por abertura no case e passou a oscilar.",Sensores
+"O sensor de temperatura ambiente registrou valor incorreto por proximidade com componente de aquecimento.",Sensores
+"O sensor de corrente de carregamento indicou bateria cheia com 60% de carga real, encurtando missão.",Sensores
+"O acelerômetro vertical saturou durante queda livre de teste, perdendo dados do evento crítico.",Sensores
+"O sensor de RGB para detecção de cor do solo falhou ao classificar superfícies molhadas.",Sensores
+"O giroscópio em eixo de guinada apresentou drift de 5°/min causando rotação lenta não comandada.",Sensores
+"O sensor de obstáculos downward não detectou superfície de água, causando mergulho do drone.",Sensores
+"O magnetômetro foi sobrecarregado ao passar próximo a torre de transmissão, perdendo calibração.",Sensores
+"O sensor de altitude por pressão reagiu à altitude da cabine pressurizante do avião transportador.",Sensores
+"O GPS reportou velocidade horizontal de 300 m/s durante voo estático por falha no processamento NMEA.",Sensores
+"O sensor de impacto não ativou ao ocorrer colisão suave, impedindo registro do incidente no log.",Sensores
+"O sensor de fluxo óptico tornou-se inutilizável após entrada de inseto na câmera.",Sensores
+"O acelerômetro de backup apresentou offset de 0,5g no eixo Z sem calibração, causando imprecisão na altitude.",Sensores
+"O link de rádio controle perdeu sinal a 300 metros de distância, muito abaixo do alcance especificado de 2 km.",Comunicação
+"A transmissão de vídeo FPV travou e ficou com imagem congelada por 8 segundos durante manobra crítica.",Comunicação
+"O canal de telemetria apresentou latência de 3 segundos, tornando o monitoramento em tempo real ineficaz.",Comunicação
+"A interferência de Wi-Fi de rede vizinha degradou completamente o link de controle RC na frequência de 2,4 GHz.",Comunicação
+"O drone perdeu comunicação com a estação de solo ao sobrevoar zona de interferência eletromagnética.",Comunicação
+"O protocolo MAVLink apresentou timeout ao enviar missão com mais de 50 waypoints para o drone.",Comunicação
+"O rádio de telemetria desligou inesperadamente durante missão por falha no regulador de tensão de alimentação.",Comunicação
+"O aplicativo de controle perdeu conexão Bluetooth com o controlador durante voo a apenas 10 metros.",Comunicação
+"O espectro de 5,8 GHz utilizado pelo link de vídeo foi bloqueado por radar meteorológico próximo.",Comunicação
+"O sistema de comunicação redundante não ativou automaticamente quando o link primário falhou.",Comunicação
+"O drone não recebeu comando de pouso de emergência enviado pelo operador devido a congestionamento de canal.",Comunicação
+"O protocolo de handshaking entre controlador e drone falhou ao inicializar, impossibilitando o voo.",Comunicação
+"A antena direcional da estação de controle perdeu rastreamento do drone, causando queda de sinal.",Comunicação
+"O link de dados para transmissão de imagens de alta resolução saturou a largura de banda disponível.",Comunicação
+"O sistema de comando por voz perdeu sincronização com o processador de bordo por latência excessiva.",Comunicação
+"O firmware de rádio apresentou bug que causava reset do receptor a cada 5 minutos de operação contínua.",Comunicação
+"O sinal de controle RC foi bloqueado por estrutura metálica entre operador e drone.",Comunicação
+"O módulo de comunicação 4G/LTE perdeu conectividade ao entrar em área com cobertura insuficiente.",Comunicação
+"O sistema de enlace de dados criptografado não conseguiu estabelecer par de chaves com nova estação de controle.",Comunicação
+"A transmissão de telemetria foi corrompida por ruído eletromagnético do sistema de propulsão.",Comunicação
+"O protocolo de comunicação entre drone e dock de carregamento falhou, impedindo retorno automático.",Comunicação
+"A rede mesh entre múltiplos drones da frota perdeu sincronização, causando conflito de rotas.",Comunicação
+"O receptor RC entrou em modo de failsafe por interferência de curta duração, mas não restaurou controle após.",Comunicação
+"O uplink de comando apresentou taxa de perda de pacotes superior a 30%, tornando o controle instável.",Comunicação
+"O canal secundário de telemetria não foi configurado corretamente, deixando sem backup de comunicação.",Comunicação
+"O sistema de detecção de interferência de rádio gerou alarme falso, desconectando o link desnecessariamente.",Comunicação
+"O downlink de vídeo operou em frequência já utilizada por drone vizinho, causando interferência mútua.",Comunicação
+"O módulo de comunicação aqueceu excessivamente e entrou em proteção térmica, cortando o link.",Comunicação
+"O firmware do receptor RC não foi atualizado e apresentou incompatibilidade com novo transmissor.",Comunicação
+"O sistema de comunicação por satélite Iridium apresentou atraso de 30 segundos na entrega de comandos.",Comunicação
+"A antena omnidirecional do drone foi danificada durante transporte, reduzindo alcance a 50 metros.",Comunicação
+"O sistema de relay aéreo para extensão de alcance travou e não retransmitiu comandos do operador.",Comunicação
+"O link de telemetria foi interrompido ao drone sobrevoar área com interferência de jammer.",Comunicação
+"O protocolo de comunicação entre módulo GPS e controlador de voo apresentou conflito de baudrate.",Comunicação
+"A transmissão de dados de sensores para a nuvem falhou por limite de rate de API atingido.",Comunicação
+"O sistema de emergência de comunicação por LED não foi ativado quando o rádio falhou.",Comunicação
+"O canal de controle de payload teve conflito de endereço com canal de telemetria principal.",Comunicação
+"O link de comunicação IR entre drone e base de carregamento não reconheceu o dock correto.",Comunicação
+"A atualização over-the-air do firmware falhou por instabilidade no link durante transferência.",Comunicação
+"O sistema de comunicação via picocell instalado no veículo de apoio perdeu sincronização com drone.",Comunicação
+"O módulo XBee de comunicação série reiniciou inesperadamente durante missão por spike de tensão.",Comunicação
+"O canal de retorno de imagens ortofoto saturou e travou a transmissão de telemetria no mesmo link.",Comunicação
+"O drone não respondeu ao comando de arm/disarm enviado via telemetria por timeout na fila de mensagens.",Comunicação
+"A perda de sinal RC por 0,5 segundos ativou failsafe incorretamente configurado para RTL em vez de hover.",Comunicação
+"O sistema de geofencing online não recebeu atualização de zonas restritas por falha no download.",Comunicação
+"O link de vídeo comprimido em H.265 apresentou artefatos severos por taxa de bits insuficiente.",Comunicação
+"O protocolo de pareamento seguro entre controlador e drone falhou após atualização de firmware.",Comunicação
+"A interferência de torre de celular bloqueou completamente o canal de 900 MHz do sistema de controle.",Comunicação
+"O receptor de telemetria no solo não conseguiu decodificar dados por diferença de versão de protocolo.",Comunicação
+"O sistema de comunicação redundante por dois rádios diferentes falhou simultaneamente em área urbana densa.",Comunicação
+"O motor 2 parou completamente durante voo em cruzeiro, causando perda de sustentação no lado direito do drone.",Propulsão
+"Uma hélice se soltou durante decolagem por parafuso desapertado, causando vibração extrema e queda.",Propulsão
+"O ESC do motor 4 superaqueceu e entrou em proteção térmica, reduzindo potência a zero durante missão.",Propulsão
+"O motor 1 apresentou ruído anormal de rolamento durante voo, indicando desgaste mecânico.",Propulsão
+"A hélice colidiu com vegetação durante voo baixo e fraturou, causando desequilíbrio crítico.",Propulsão
+"O sistema de controle de velocidade do motor (ESC) recebeu sinal de throttle invertido após atualização de firmware.",Propulsão
+"O motor brushless queimou por operação contínua em potência máxima por tempo superior ao especificado.",Propulsão
+"Vibração excessiva de origem desconhecida causou fadiga e fratura da haste do motor 3.",Propulsão
+"O balanceamento das hélices foi comprometido após colisão menor, causando ressonância crescente em voo.",Propulsão
+"O driver do motor recebeu sinal PWM corrompido e acelerou um dos motores a 100% sem comando.",Propulsão
+"A transmissão de potência mecânica falhou em drone de asa fixa, travando o sistema de propulsão.",Propulsão
+"O motor apresentou curto entre bobinas após entrada de água durante pouso em superfície molhada.",Propulsão
+"O propulsor de empenagem do drone VTOL não respondeu ao comando de transição, travando voo em modo helicóptero.",Propulsão
+"A hélice invertida foi instalada no sentido errado após manutenção, gerando força contrária à esperada.",Propulsão
+"O motor de passo do payload giratório entrou em conflito de corrente com o sistema de propulsão principal.",Propulsão
+"O conjunto motor-hélice do braço frontal esquerdo desprendeu-se completamente durante voo de alta velocidade.",Propulsão
+"O ESC não calibrado gerou desequilíbrio de potência entre motores, causando voo lateral não intencional.",Propulsão
+"A hélice de borracha deformou sob temperatura elevada, perdendo eficiência aerodinâmica.",Propulsão
+"O motor apresentou inversão de polaridade na fiação após conserto improvisado em campo.",Propulsão
+"A proteção de hélice (prop guard) interferiu no fluxo de ar e reduziu eficiência de sustentação em 15%.",Propulsão
+"O sistema de mudança de passo de hélice travou na posição mínima, impedindo geração de empuxo adequado.",Propulsão
+"Dois motores diagonalmente opostos apresentaram diferença de RPM de 20%, causando guinada constante.",Propulsão
+"O motor de cauda do drone helicóptero falhou, causando rotação descontrolada em torno do eixo vertical.",Propulsão
+"A hélice de fibra de carbono rachou por impacto com fragmento de rocha durante voo rasante.",Propulsão
+"O ESC entrou em modo de proteção por sobrecorrente ao tentar decolar com peso excessivo.",Propulsão
+"O sistema de dobragem automática dos braços do motor falhou, deixando hélice presa durante decolagem.",Propulsão
+"O motor com encoder apresentou falha de feedback, fazendo o controlador aumentar corrente até sobreaquecer.",Propulsão
+"Vibração do motor 3 transmitiu-se para estrutura e soltou câmera do payload durante voo.",Propulsão
+"O conjunto motor-ESC apresentou ressonância mecânica na frequência de 80 Hz durante subida.",Propulsão
+"A hélice acumulou gelo durante operação em temperatura abaixo de zero, perdendo equilíbrio.",Propulsão
+"O controlador de velocidade do motor emitiu ruído eletromagnético que interferiu no receptor GPS.",Propulsão
+"O motor de empuxo vetorial falhou em retornar à posição neutra após manobra, causando aceleração inesperada.",Propulsão
+"Após substituição emergencial de motor em campo, a calibração de ESC não foi realizada, causando instabilidade.",Propulsão
+"O motor 4 apresentou perda de par motor progressiva ao longo do voo por desgaste das escovas.",Propulsão
+"O sistema de propulsão elétrica-combustão híbrida falhou na transição entre modos de operação.",Propulsão
+"A hélice biconcava instalada incorretamente gerou sustentação negativa em um dos braços.",Propulsão
+"O ESC apresentou falha de sincronização com o motor, causando comportamento errático em baixa velocidade.",Propulsão
+"O motor overclockado por software para aumentar empuxo queimou os enrolamentos por excesso de corrente.",Propulsão
+"A borracha anti-vibração do suporte de motor endureceu pelo frio e transmitiu vibração excessiva.",Propulsão
+"O motor apresentou falha intermitente causada por conector oxidado no cabo de sinal do ESC.",Propulsão
+"O sistema de vectoring de empuxo perdeu calibração de posição zero e aplicou ângulo residual constante.",Propulsão
+"A hélice se desprendeu durante voo a 120 km/h e colidiu com a estrutura do drone.",Propulsão
+"O motor de motor de reserva acionado em emergência apresentou defeito de fabricação e não partiu.",Propulsão
+"O ESC em modo de frenagem regenerativa injetou corrente de volta na bateria além da capacidade.",Propulsão
+"O ruído acústico do motor 2 indicou desequilíbrio, ignorado pelo operador, que resultou em falha total.",Propulsão
+"O sistema de propulsão não atingiu potência máxima por limitação de corrente mal configurada no ESC.",Propulsão
+"A hélice dobrou levemente ao decolar de superfície inclinada e continuou com desequilíbrio.",Propulsão
+"O motor falhou por entrada de areia fina durante operação em ambiente desértico sem filtro adequado.",Propulsão
+"O empuxo assimétrico entre motores do lado esquerdo e direito causou deriva lateral constante.",Propulsão
+"O ESC perdeu comunicação com o controlador de voo e manteve velocidade de motor constante e máxima.",Propulsão
+"A bateria LiPo inchou durante o voo e desconectou o conector principal, cortando energia do sistema.",Energia
+"A tensão da bateria caiu abaixo do limite de segurança 5 minutos antes do previsto por alta temperatura ambiente.",Energia
+"O sistema de gerenciamento de bateria (BMS) falhou ao equilibrar células, causando descarga prematura de uma célula.",Energia
+"O conector de alimentação principal aqueceu por oxidação e causou queda de tensão intermitente.",Energia
+"A bateria de backup para o computador de bordo não estava carregada, causando perda de dados no desligamento.",Energia
+"O regulador de 5V responsável por alimentar o receptor RC falhou, causando perda de controle.",Energia
+"A bateria principal descargou completamente durante missão longa por subestimativa de consumo.",Energia
+"O sistema de carregamento rápido danificou células por corrente excessiva em baterias quentes.",Energia
+"O drone não alertou o operador sobre baixa carga da bateria por falha no módulo de aviso sonoro.",Energia
+"A bateria ficou exposta a temperatura de -15°C antes do voo, reduzindo capacidade efetiva em 40%.",Energia
+"O sistema de distribuição de energia não isolou o barramento de payload ao detectar curto, afetando toda a eletrônica.",Energia
+"A bateria LiPo sofreu ignição térmica após ser perfurada por parafuso solto internamente.",Energia
+"O carregador não detectou bateria defeituosa e continuou carregando, causando deformação das células.",Energia
+"O módulo de telemetria de bateria indicou 80% de carga quando a bateria estava com 30% real.",Energia
+"A bateria de reserva não foi conectada antes do voo longo, deixando o sistema sem redundância de energia.",Energia
+"O sistema de desligamento automático por baixa tensão foi configurado em valor muito alto, cortando voo prematuramente.",Energia
+"O drone consumiu energia acima do esperado por operar com ventos fortes, ficando sem bateria antes do retorno.",Energia
+"O aquecedor de bateria para operação em frio não ativou corretamente, deixando células frias durante voo.",Energia
+"A bateria encheu com umidade por armazenamento inadequado, criando resistência interna anormalmente alta.",Energia
+"O sistema de gerenciamento de energia priorizou incorretamente payload em vez de propulsão em situação crítica.",Energia
+"O conector XT60 derreteu por corrente de pico durante decolagem com peso máximo.",Energia
+"A bateria apresentou efeito de memória por ciclos de carga parcial repetidos, reduzindo autonomia.",Energia
+"O sistema de monitoramento de bateria não detectou célula aberta por falha no sensor de tensão individual.",Energia
+"A fiação interna rompeu por fadiga mecânica durante voo com vibração elevada, causando perda de energia.",Energia
+"O circuito de proteção contra descarga profunda não atuou, permitindo células caírem a 2,5V.",Energia
+"O sistema de energia solar para recarga em voo não ativou os painéis por falha no MPPT.",Energia
+"A bateria de íon de lítio vazou eletrólito após impacto durante pouso brusco, danificando eletrônica adjacente.",Energia
+"O regulador de tensão para sistema de navegação produziu ruído de alta frequência que afetou o GPS.",Energia
+"A bateria principal descarregou em terra durante pré-voo prolongado por sistema de telemetria ligado.",Energia
+"O sistema de switch de baterias paralelas falhou ao transferir carga para a bateria secundária.",Energia
+"O sensor de corrente indicou carga de bateria negativa por curto no cabo de medição.",Energia
+"A bateria de 6S foi conectada em drone projetado para 4S por descuido, danificando toda a eletrônica.",Energia
+"O sistema de hibernação de bateria ativou durante pausa de missão, cortando a energia do controlador.",Energia
+"A descarga excessiva em temperaturas baixas causou falha permanente em 2 células da bateria.",Energia
+"O módulo de telemetria consumiu 3W a mais que o previsto, reduzindo autonomia de voo em 15%.",Energia
+"O BMS desligou a bateria ao detectar temperatura elevada, mas o valor lido estava 10°C acima do real.",Energia
+"O sistema de dupla bateria não conseguiu balancear carga entre as baterias durante consumo de pico.",Energia
+"O timer de carga do carregador desligou antes de completar o ciclo, deixando bateria com 85% de carga.",Energia
+"O cabo de alimentação do payload rompeu por dobramento repetitivo, causando reset do sistema de câmera.",Energia
+"A bateria LiPo sofreu curto interno após dano por queda, gerando calor e fumaça.",Energia
+"O sistema de failsafe por baixa bateria não ativou RTL por falha no monitoramento de tensão em voo.",Energia
+"A bateria chegou ao fim do ciclo de vida (300 ciclos) sem substituição, causando queda de capacidade para 60%.",Energia
+"O drone ficou sem energia a 500m do ponto de retorno por cálculo incorreto de reserva de bateria.",Energia
+"A proteção contra inversão de polaridade do conector de bateria foi bypassada por modificação incorreta.",Energia
+"O sistema de energia de emergência com supercapacitor não carregou por falha no circuito de pré-carga.",Energia
+"A bateria de poliuretano rígido foi inserida com força excessiva, curvando os contatos de conexão.",Energia
+"A corrente de rush na partida dos motores excedeu o limite do fusível, causando abertura do circuito.",Energia
+"O sistema de distribuição de energia em barramento duplo falhou ao alternar para o barramento reserva.",Energia
+"O estabilizador de tensão do computador de bordo foi bypassado por cabagem errada, causando dano por tensão.",Energia
+"O firmware do controlador de voo entrou em loop infinito após receber parâmetro inválido de calibração.",Software Embarcado
+"O watchdog timer não foi reiniciado a tempo, causando reset do sistema de controle durante pouso.",Software Embarcado
+"O software de fusão de sensores calculou ângulo de roll com sinal invertido, causando instabilidade.",Software Embarcado
+"O algoritmo PID de altitude apresentou ganho de integral acumulado excessivo, causando oscilação.",Software Embarcado
+"O gerenciador de missão não liberou memória de waypoints concluídos, causando overflow após 20 missões.",Software Embarcado
+"O driver de comunicação serial travou por deadlock entre threads de leitura e escrita simultâneas.",Software Embarcado
+"O firmware desatualizou parâmetros de voo ao restaurar configuração padrão inadvertidamente.",Software Embarcado
+"A rotina de pouso automático entrou em modo de espera indefinido ao não confirmar contato com o solo.",Software Embarcado
+"O sistema operacional de tempo real (RTOS) perdeu deadline crítico de controle por tarefa de baixa prioridade.",Software Embarcado
+"O módulo de log de voo corrompeu o arquivo ao tentar gravar durante pico de CPU.",Software Embarcado
+"A atualização de firmware over-the-air foi interrompida no meio, deixando firmware em estado inválido.",Software Embarcado
+"O algoritmo de estimativa de vento gerou valor de 300 m/s por divisão por zero em condição específica.",Software Embarcado
+"O sistema de detecção de colisão baseado em visão consumiu 100% de CPU, travando o loop de controle.",Software Embarcado
+"A rotina de inicialização do giroscópio não esperou estabilização e usou valores de boot incorretos.",Software Embarcado
+"O software de missão não validou altitude negativa enviada na missão, causando comportamento indefinido.",Software Embarcado
+"O sistema de autotune de PID divergiu para valores extremos ao tentar ajustar em vento forte.",Software Embarcado
+"O módulo de geração de trajetória calculou curva impossível geometricamente por erro numérico.",Software Embarcado
+"A biblioteca de compressão de telemetria introduziu latência variável que quebrou o protocolo de tempo real.",Software Embarcado
+"O software de controle de motor recebeu referência de velocidade em unidades erradas após mudança de API.",Software Embarcado
+"O sistema de análise de vibração registrou FFT incorreta por janela de amostragem não sincronizada.",Software Embarcado
+"O gerenciador de energia do software cortou alimentação de módulo ativo por estado de máquina incorreto.",Software Embarcado
+"A rotina de backup de configuração sobrescreveu parâmetros válidos com valores padrão durante reset.",Software Embarcado
+"O firmware do ESC apresentou bug de race condition que causava picos de corrente em aceleração rápida.",Software Embarcado
+"O sistema de machine learning embarcado para detecção de obstáculos foi corrompido por peso inválido.",Software Embarcado
+"O scheduler do RTOS alocou tempo insuficiente para loop de controle de voo por prioridade mal definida.",Software Embarcado
+"O módulo de compressão de imagem do payload consumiu memória além do alocado e corrompeu stack.",Software Embarcado
+"A rotina de atualização de parâmetros PID atuou durante voo com valores parcialmente escritos.",Software Embarcado
+"O software de controle de gimbal enviou ângulo além do limite mecânico por falta de clamp na saída.",Software Embarcado
+"O sistema de segurança por software não ativou kill switch por bug no módulo de detecção de estado crítico.",Software Embarcado
+"A interrupção do sensor IMU foi mascarada por código de driver, perdendo amostras e causando jitter.",Software Embarcado
+"O firmware apresentou comportamento não determinístico ao processar dois comandos simultâneos.",Software Embarcado
+"O módulo de planejamento de missão autônoma gerou trajetória com loop infinito por grafo mal construído.",Software Embarcado
+"O sistema de controle adaptativo divergiu ao tentar compensar falha de motor sem limite de adaptação.",Software Embarcado
+"A rotina de auto-diagnóstico reportou todos os sistemas OK mesmo com sensor IMU desconectado.",Software Embarcado
+"O software de anti-colisão entre drones calculou trajetória de evasão que colidiria com obstáculo estático.",Software Embarcado
+"O módulo de controle de temperatura do payload reiniciou o computador de bordo ao enviar sinal incorreto.",Software Embarcado
+"A pilha TCP/IP do módulo de comunicação travou por buffer overflow em pacote mal formado recebido.",Software Embarcado
+"O algoritmo de SLAM embarcado acumulou erro de odometria, deslocando o mapa 30 metros da posição real.",Software Embarcado
+"O log de diagnóstico não capturou o estado exato da falha por ser escrito após o evento crítico.",Software Embarcado
+"A rotina de controle de modo de voo aceitou transição inválida de estado, causando comportamento inesperado.",Software Embarcado
+"O compilador cruzado gerou código com alinhamento errado para acesso a registrador de hardware específico.",Software Embarcado
+"O sistema de configuração remota de parâmetros aplicou mudança sem verificar limites de segurança.",Software Embarcado
+"O módulo de gravação de telemetria em SD Card falhou silenciosamente por falta de tratamento de erro.",Software Embarcado
+"A tarefa de processamento de visão computacional vazou memória lentamente, causando crash após 40 minutos.",Software Embarcado
+"O firmware de controle de voo não foi testado na temperatura de operação real e falhou a -5°C.",Software Embarcado
+"O sistema de votação entre IMUs redundantes implementou lógica invertida e descartou o sensor bom.",Software Embarcado
+"A rotina de land detector baseada em aceleração produziu falso positivo em turbulência, interrompendo missão.",Software Embarcado
+"O software de estimativa de autonomia calculou tempo de voo restante negativo por subtração incorreta.",Software Embarcado
+"O módulo de sincronização de tempo entre computadores de bordo perdeu referência e causou inconsistência de log.",Software Embarcado
+"A atualização de configuração de rádio sobrescreveu tabela de frequências proibidas, causando violação de espectro.",Software Embarcado
+"O sistema de monitoramento de consumo em tempo real travou, impedindo estimativa de autonomia restante durante missão.",Energia
