@@ -1,0 +1,22 @@
+Issue 1 — [NLP] Implementar módulo de pré-processamento com spaCy
+Implementar o pipeline que transforma texto bruto em lista de lemas filtrados, e a função de similaridade de Jaccard usada para comparar textos. É a base de comparação usada pela construção do grafo e pelo classificador.
+
+Depende de: Issue 0
+Pode ser feita em paralelo com: Issue 2
+
+Tarefas
+
+Configurar spaCy com modelo em português (pt_core_news_sm)
+
+Implementar em src/preprocessamento.py:
+preprocessar(texto: str) -> list[str] que:
+Tokeniza o texto
+Remove stopwords
+Aplica lematização (ex: "motores" → "motor", "perdeu" → "perder")
+Remove pontuação e caracteres especiais
+Retorna lista de lemas em minúsculas
+jaccard(set_a: set, set_b: set) -> float que calcula |A ∩ B| / |A ∪ B|, retornando 0.0 se a união for vazia
+
+Testar manualmente com pelo menos 5 exemplos do dataset, mostrando entrada e saída esperada num bloco de comentário no final do arquivo
+Critério de aceite
+Módulo importável pelos outros módulos sem erro, preprocessar retorna lemas corretos e jaccard retorna valor entre 0 e 1.
