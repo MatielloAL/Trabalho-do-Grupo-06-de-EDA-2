@@ -1,0 +1,302 @@
+[
+  {
+    "id": 0,
+    "texto": "O planejamento de waypoints apresentou erro e o drone saltou direto para o último ponto da missão, ignorando os intermediários.",
+    "categoria": "Navegação"
+  },
+  {
+    "id": 1,
+    "texto": "O drone ignorou zona de exclusão aérea configurada devido a corrupção no arquivo de geofence.",
+    "categoria": "Navegação"
+  },
+  {
+    "id": 2,
+    "texto": "A bússola interna apresentou interferência magnética próximo a estruturas metálicas, causando desorientação no drone.",
+    "categoria": "Navegação"
+  },
+  {
+    "id": 3,
+    "texto": "Durante voo em modo FOLLOW ME, o drone perdeu rastreamento do alvo e ficou estático no ar.",
+    "categoria": "Navegação"
+  },
+  {
+    "id": 4,
+    "texto": "O drone apresentou deriva lateral constante de 2 m/s mesmo com ventos calmos, indicando falha na correção de posição.",
+    "categoria": "Navegação"
+  },
+  {
+    "id": 5,
+    "texto": "O módulo GPS indicou posição fixa com apenas 3 satélites, resultando em leituras imprecisas de localização.",
+    "categoria": "Navegação"
+  },
+  {
+    "id": 6,
+    "texto": "Durante pouso automático, o drone iniciou descida em posição deslocada 8 metros do ponto alvo.",
+    "categoria": "Navegação"
+  },
+  {
+    "id": 7,
+    "texto": "O GPS perdeu sinal repentinamente durante a missão, fazendo o drone entrar em modo de voo manual inesperadamente.",
+    "categoria": "Navegação"
+  },
+  {
+    "id": 8,
+    "texto": "O drone iniciou descida autônoma em local inadequado por falha no reconhecimento de zona de pouso seguro.",
+    "categoria": "Navegação"
+  },
+  {
+    "id": 9,
+    "texto": "O drone não desviou de nuvem de pássaros detectada pelo sensor de obstáculos, resultando em colisão.",
+    "categoria": "Navegação"
+  },
+  {
+    "id": 10,
+    "texto": "O sensor de radiação solar para estimativa de iluminação foi danificado por impacto de galho durante missão.",
+    "categoria": "Sensores"
+  },
+  {
+    "id": 11,
+    "texto": "O magnetômetro externo foi instalado próximo ao ESC, sofrendo interferência eletromagnética constante.",
+    "categoria": "Sensores"
+  },
+  {
+    "id": 12,
+    "texto": "O sensor de corrente de carregamento indicou bateria cheia com 60% de carga real, encurtando missão.",
+    "categoria": "Sensores"
+  },
+  {
+    "id": 13,
+    "texto": "O acelerômetro vertical saturou durante queda livre de teste, perdendo dados do evento crítico.",
+    "categoria": "Sensores"
+  },
+  {
+    "id": 14,
+    "texto": "O sensor de presença de objeto no trilho de pouso falhou, impedindo confirmação de pouso bem-sucedido.",
+    "categoria": "Sensores"
+  },
+  {
+    "id": 15,
+    "texto": "O sensor ultrassônico emparelhou com eco de superfície próxima durante voo, retornando altitude zero falsamente.",
+    "categoria": "Sensores"
+  },
+  {
+    "id": 16,
+    "texto": "O magnetômetro apresentou desvio permanente após exposição a campo magnético intenso durante manutenção.",
+    "categoria": "Sensores"
+  },
+  {
+    "id": 17,
+    "texto": "O sensor de distância traseiro não detectou obstáculo de vidro transparente a 0,5 metros.",
+    "categoria": "Sensores"
+  },
+  {
+    "id": 18,
+    "texto": "O sensor de corrente da bateria indicou consumo zero durante voo, impedindo estimativa correta de carga restante.",
+    "categoria": "Sensores"
+  },
+  {
+    "id": 19,
+    "texto": "O sensor GPS não adquiriu fix após 10 minutos de espera em local com visibilidade celeste adequada.",
+    "categoria": "Sensores"
+  },
+  {
+    "id": 20,
+    "texto": "O sistema de comunicação por satélite Iridium apresentou atraso de 30 segundos na entrega de comandos.",
+    "categoria": "Comunicação"
+  },
+  {
+    "id": 21,
+    "texto": "O sistema de geofencing online não recebeu atualização de zonas restritas por falha no download.",
+    "categoria": "Comunicação"
+  },
+  {
+    "id": 22,
+    "texto": "O sistema de detecção de interferência de rádio gerou alarme falso, desconectando o link desnecessariamente.",
+    "categoria": "Comunicação"
+  },
+  {
+    "id": 23,
+    "texto": "O sistema de relay aéreo para extensão de alcance travou e não retransmitiu comandos do operador.",
+    "categoria": "Comunicação"
+  },
+  {
+    "id": 24,
+    "texto": "O canal de retorno de imagens ortofoto saturou e travou a transmissão de telemetria no mesmo link.",
+    "categoria": "Comunicação"
+  },
+  {
+    "id": 25,
+    "texto": "O sistema de comunicação redundante por dois rádios diferentes falhou simultaneamente em área urbana densa.",
+    "categoria": "Comunicação"
+  },
+  {
+    "id": 26,
+    "texto": "O protocolo de comunicação entre drone e dock de carregamento falhou, impedindo retorno automático.",
+    "categoria": "Comunicação"
+  },
+  {
+    "id": 27,
+    "texto": "O link de vídeo comprimido em H.265 apresentou artefatos severos por taxa de bits insuficiente.",
+    "categoria": "Comunicação"
+  },
+  {
+    "id": 28,
+    "texto": "O canal de controle de payload teve conflito de endereço com canal de telemetria principal.",
+    "categoria": "Comunicação"
+  },
+  {
+    "id": 29,
+    "texto": "O link de dados para transmissão de imagens de alta resolução saturou a largura de banda disponível.",
+    "categoria": "Comunicação"
+  },
+  {
+    "id": 30,
+    "texto": "O sistema de vectoring de empuxo perdeu calibração de posição zero e aplicou ângulo residual constante.",
+    "categoria": "Propulsão"
+  },
+  {
+    "id": 31,
+    "texto": "O motor brushless queimou por operação contínua em potência máxima por tempo superior ao especificado.",
+    "categoria": "Propulsão"
+  },
+  {
+    "id": 32,
+    "texto": "O ruído acústico do motor 2 indicou desequilíbrio, ignorado pelo operador, que resultou em falha total.",
+    "categoria": "Propulsão"
+  },
+  {
+    "id": 33,
+    "texto": "O motor apresentou curto entre bobinas após entrada de água durante pouso em superfície molhada.",
+    "categoria": "Propulsão"
+  },
+  {
+    "id": 34,
+    "texto": "Após substituição emergencial de motor em campo, a calibração de ESC não foi realizada, causando instabilidade.",
+    "categoria": "Propulsão"
+  },
+  {
+    "id": 35,
+    "texto": "O ESC não calibrado gerou desequilíbrio de potência entre motores, causando voo lateral não intencional.",
+    "categoria": "Propulsão"
+  },
+  {
+    "id": 36,
+    "texto": "A hélice dobrou levemente ao decolar de superfície inclinada e continuou com desequilíbrio.",
+    "categoria": "Propulsão"
+  },
+  {
+    "id": 37,
+    "texto": "O motor 2 parou completamente durante voo em cruzeiro, causando perda de sustentação no lado direito do drone.",
+    "categoria": "Propulsão"
+  },
+  {
+    "id": 38,
+    "texto": "A hélice acumulou gelo durante operação em temperatura abaixo de zero, perdendo equilíbrio.",
+    "categoria": "Propulsão"
+  },
+  {
+    "id": 39,
+    "texto": "A transmissão de potência mecânica falhou em drone de asa fixa, travando o sistema de propulsão.",
+    "categoria": "Propulsão"
+  },
+  {
+    "id": 40,
+    "texto": "O timer de carga do carregador desligou antes de completar o ciclo, deixando bateria com 85% de carga.",
+    "categoria": "Energia"
+  },
+  {
+    "id": 41,
+    "texto": "A tensão da bateria caiu abaixo do limite de segurança 5 minutos antes do previsto por alta temperatura ambiente.",
+    "categoria": "Energia"
+  },
+  {
+    "id": 42,
+    "texto": "A bateria apresentou efeito de memória por ciclos de carga parcial repetidos, reduzindo autonomia.",
+    "categoria": "Energia"
+  },
+  {
+    "id": 43,
+    "texto": "A bateria de backup para o computador de bordo não estava carregada, causando perda de dados no desligamento.",
+    "categoria": "Energia"
+  },
+  {
+    "id": 44,
+    "texto": "A bateria de reserva não foi conectada antes do voo longo, deixando o sistema sem redundância de energia.",
+    "categoria": "Energia"
+  },
+  {
+    "id": 45,
+    "texto": "O sistema de desligamento automático por baixa tensão foi configurado em valor muito alto, cortando voo prematuramente.",
+    "categoria": "Energia"
+  },
+  {
+    "id": 46,
+    "texto": "O sistema de carregamento rápido danificou células por corrente excessiva em baterias quentes.",
+    "categoria": "Energia"
+  },
+  {
+    "id": 47,
+    "texto": "O sistema de monitoramento de consumo em tempo real travou, impedindo estimativa de autonomia restante durante missão.",
+    "categoria": "Energia"
+  },
+  {
+    "id": 48,
+    "texto": "A descarga excessiva em temperaturas baixas causou falha permanente em 2 células da bateria.",
+    "categoria": "Energia"
+  },
+  {
+    "id": 49,
+    "texto": "A bateria principal descarregou em terra durante pré-voo prolongado por sistema de telemetria ligado.",
+    "categoria": "Energia"
+  },
+  {
+    "id": 50,
+    "texto": "O software de controle de gimbal enviou ângulo além do limite mecânico por falta de clamp na saída.",
+    "categoria": "Software Embarcado"
+  },
+  {
+    "id": 51,
+    "texto": "O sistema operacional de tempo real (RTOS) perdeu deadline crítico de controle por tarefa de baixa prioridade.",
+    "categoria": "Software Embarcado"
+  },
+  {
+    "id": 52,
+    "texto": "O sistema de segurança por software não ativou kill switch por bug no módulo de detecção de estado crítico.",
+    "categoria": "Software Embarcado"
+  },
+  {
+    "id": 53,
+    "texto": "O software de anti-colisão entre drones calculou trajetória de evasão que colidiria com obstáculo estático.",
+    "categoria": "Software Embarcado"
+  },
+  {
+    "id": 54,
+    "texto": "O sistema de votação entre IMUs redundantes implementou lógica invertida e descartou o sensor bom.",
+    "categoria": "Software Embarcado"
+  },
+  {
+    "id": 55,
+    "texto": "O sistema de detecção de colisão baseado em visão consumiu 100% de CPU, travando o loop de controle.",
+    "categoria": "Software Embarcado"
+  },
+  {
+    "id": 56,
+    "texto": "O sistema de autotune de PID divergiu para valores extremos ao tentar ajustar em vento forte.",
+    "categoria": "Software Embarcado"
+  },
+  {
+    "id": 57,
+    "texto": "O firmware desatualizou parâmetros de voo ao restaurar configuração padrão inadvertidamente.",
+    "categoria": "Software Embarcado"
+  },
+  {
+    "id": 58,
+    "texto": "A rotina de backup de configuração sobrescreveu parâmetros válidos com valores padrão durante reset.",
+    "categoria": "Software Embarcado"
+  },
+  {
+    "id": 59,
+    "texto": "A rotina de land detector baseada em aceleração produziu falso positivo em turbulência, interrompendo missão.",
+    "categoria": "Software Embarcado"
+  }
+]
