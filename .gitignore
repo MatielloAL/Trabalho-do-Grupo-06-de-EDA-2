@@ -20,3 +20,7 @@ Thumbs.db
 
 # Environment variables
 .env
+venv/
+__pycache__/
+*.pyc
+.vscode/
