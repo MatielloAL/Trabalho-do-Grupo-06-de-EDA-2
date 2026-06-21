@@ -65,6 +65,7 @@ A avaliação foi realizada utilizando os casos presentes em `test_cases.json`, 
 
 **Acurácia Geral:** 78,33% (47 acertos em 60 casos)
 
+Os resultados obtidos para o Nível de Análise 1 podem ser observados na imagem abaixo, gerada pelo sistema durante a execução da avaliação. Nela são apresentados a acurácia geral, a quantidade de acertos e o desempenho individual de cada categoria analisada.
 
 ![Análise1](imagens/nivel1.png)
 
@@ -84,6 +85,8 @@ A avaliação foi realizada utilizando os casos presentes em `test_cases.json`, 
 | Software Embarcado | 0%      |
 
 **Acurácia Geral:** 41,67% (25 acertos em 60 casos)
+
+Os resultados do Nível de Análise 2 podem ser visualizados na imagem abaixo. Nessa configuração, o sistema considera não apenas os relatos mais semelhantes, mas também relatos relacionados encontrados por meio da expansão do grafo, permitindo comparar o impacto dessa estratégia na classificação.
 
 ![Análise2](imagens/nivel2.png)
 
