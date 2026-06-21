@@ -38,9 +38,7 @@ dados/
 
 ## Análise dos Resultados
 
-# Análise dos Resultados
-
-## Objetivo da Avaliação
+# Objetivo da Avaliação
 
 O objetivo da avaliação foi verificar a capacidade do sistema em classificar corretamente relatos de falhas em drones utilizando uma representação em grafo baseada na similaridade textual entre relatos.
 
