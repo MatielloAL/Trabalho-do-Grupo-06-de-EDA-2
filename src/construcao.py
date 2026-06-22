@@ -27,7 +27,7 @@ def construir_grafo(dataset: list) -> Grafo:
         for j in range(i + 1, len(ids)):
             id_a, id_b = ids[i], ids[j]
             sim = jaccard(sets_lemas[id_a], sets_lemas[id_b])
-            if sim > 0.15:
+            if sim > 0:
                 g.adicionar_aresta(id_a, id_b, sim)
 
     return g
