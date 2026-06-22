@@ -147,8 +147,6 @@ Esse comportamento indica que, para o conjunto de dados utilizado, os vizinhos d
 
 ## Avaliação da Estrutura em Grafo
 
-## Avaliação da Estrutura em Grafo
-
 A modelagem por grafos permitiu representar relações de similaridade entre relatos de forma intuitiva e eficiente.
 
 Cada vértice representa um relato de falha presente no conjunto de treinamento e cada aresta representa o grau de semelhança entre dois relatos, calculado por meio da Similaridade de Jaccard aplicada aos lemas extraídos durante o pré-processamento textual.
